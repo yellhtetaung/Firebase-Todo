@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "firebaseTodo",
-    "slug": "firebaseTodo",
+    "name": "ZenTodo",
+    "slug": "ZenTodo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yellhtetaung.ZenTodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4538d548-a4b7-4cfc-a969-0a47ccbbcdfa"
+      }
     }
   }
 }
